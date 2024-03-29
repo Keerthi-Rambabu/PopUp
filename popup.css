@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    background-color:#DDDDDD;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    height:100vh;
+    align-items: center;/* this property makes items to center  */
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 22px;
+    background-color: #007bff;
+    color: #fff;
+    border: 0;
+    outline:none;
+    cursor:pointer;
+    border-radius: 22px;
+    cursor: pointer;
+}
+.popup{
+    width:400px;
+    background-color: #fff;
+    border-radius: 6px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align: center;
+    padding:0 30px;
+    color:#333;
+    height:250px;
+    align-items: center;
+    text-align: center;
+}
+.tick{
+    height:100px;
+}
